@@ -6,7 +6,7 @@ namespace cancionesApi.Models
 		public int Id { get; set; }
 		public string Cancion { get; set; }
 		public string Artista { get; set; }
-		public string IdUsuario { get; set; }
+		public int IdUsuario { get; set; }
 	}
 }
 
