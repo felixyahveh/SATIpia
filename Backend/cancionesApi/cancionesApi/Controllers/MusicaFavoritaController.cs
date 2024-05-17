@@ -46,14 +46,7 @@ namespace cancionesApi.Controllers
                     }
                 }
             }
-            if (data.Count > 0)
-            {
-                return Ok(data);
-            }
-            else
-            {
-                return NotFound();
-            }
+            return Ok(data);
         }
     }
 }

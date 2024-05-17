@@ -1,0 +1,31 @@
+.contenedor{
+    width: 100vw; 
+    height: 100vh;
+    background-image: url("https://lasallelaguna.mx/wp-content/uploads/2018/08/carreras_lasallelaguna_musica-1170x750.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* align-content: stretch; */
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 50vw;
+    background-color: rgba(209, 200, 200, 0.8);
+}
+
+.logotipo{
+    height: 20vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.centrarHorizontalmente{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
