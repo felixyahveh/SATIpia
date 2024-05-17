@@ -33,3 +33,10 @@ insert into MusicaFavorita (cancion,artista,idUsuario) values
 ('La nave del olvido','Jose Jose',2)
 
 select * from MusicaFavorita
+
+--Consultas Que se usan para la consulta de datos en la app
+--El Login
+SELECT * FROM Usuario WHERE nombreUsuario = 'felix' and contrasena = '12';
+
+--El grid de canciones
+SELECT * FROM MusicaFavorita WHERE cancion LIKE '%%' AND idUsuario = '1'
